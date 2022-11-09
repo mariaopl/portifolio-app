@@ -24,7 +24,7 @@ export const HomePage = () => {
             </span>
             </Link>
         </div>
-        <div className="absolute bottom-10 left-0 flex flex-col items-end gap-2">
+        <div className="absolute bottom-10 left-0 flex flex-col items-end gap-2 z-0">
           <div className="flex gap-2">
             <div className="inline-block bottom-0 right-0">
               <a href="https://www.linkedin.com/in/maria-opland-9124031a1/" target="_blank" rel="noreferrer">
