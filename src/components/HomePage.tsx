@@ -1,7 +1,7 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 
 export const HomePage = () => {
@@ -17,18 +17,30 @@ export const HomePage = () => {
           I´m a developer.
         </h2>
         <div>
-            <Link to="about" className="text-gray-700 group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#989cab] hover:border-[#989cab] hover:text-white w-fit">
+            <Link to="about" className="text-gray-700 group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#989cab] hover:border-[#989cab] hover:text-white w-fit cursor-pointer cursor-pointer">
             View Work
             <span className="group-hover:rotate-90 duration-300">
               <HiArrowNarrowRight className="ml-3" />
             </span>
             </Link>
         </div>
-        <div className="absolute bottom-0 h-16 w-16">
-          <a href="https://www.linkedin.com/in/maria-opland-9124031a1/" target="_blank" rel="noreferrer">
-          <FaLinkedinIn/>
-          </a>
-      </div>
+        <div className="absolute bottom-10 left-0 flex flex-col items-end gap-2">
+          <div className="flex gap-2">
+            <div className="inline-block bottom-0 right-0">
+              <a href="https://www.linkedin.com/in/maria-opland-9124031a1/" target="_blank" rel="noreferrer">
+              <FaLinkedinIn size={22}/>
+              </a>
+            </div>
+            <div className="inline-block bottom-0 right-0">
+              <a href="https://github.com/mariaopl" target="_blank" rel="noreferrer">
+              <FaGithub size={22}/>
+              </a>
+            </div>
+
+          </div>
+          <div className="border-b-4 border-gray-700 w-40">
+          </div>
+        </div>
       </div>
     </div>
   );
