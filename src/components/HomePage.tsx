@@ -1,6 +1,8 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
+import { FaLinkedinIn } from "react-icons/fa";
+
 
 export const HomePage = () => {
 
@@ -14,25 +16,19 @@ export const HomePage = () => {
         <h2 className="text-3xl sm:text-6xl font-bold text-[#848794]">
           I´m a developer.
         </h2>
-        <p className="text-[#848794] py-4 max-w-[700px]">
-          Thanks for visiting my page, feel free to check out my portifolio
-        </p>
         <div>
-
             <Link to="about" className="text-gray-700 group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#989cab] hover:border-[#989cab] hover:text-white w-fit">
             View Work
             <span className="group-hover:rotate-90 duration-300">
               <HiArrowNarrowRight className="ml-3" />
             </span>
             </Link>
-
-          {/* <button className="text-gray-700 group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#989cab] hover:border-[#989cab] hover:text-white">
-            View Work
-            <span className="group-hover:rotate-90 duration-300">
-              <HiArrowNarrowRight className="ml-3" />
-            </span>
-          </button> */}
         </div>
+        <div className="absolute bottom-0 h-16 w-16">
+          <a href="https://www.linkedin.com/in/maria-opland-9124031a1/" target="_blank" rel="noreferrer">
+          <FaLinkedinIn/>
+          </a>
+      </div>
       </div>
     </div>
   );

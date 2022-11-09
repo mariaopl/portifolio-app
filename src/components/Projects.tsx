@@ -2,7 +2,7 @@ import React from "react";
 
 const Projects = () => {
   return (
-    <div id="projects" className="w-full h-screen bg-[#22333b] text-white">
+    <div id="projects" className="w-full h-screen bg-[#6d6875] text-white">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
           <div className="sm:text-right pb-8 pl-4">
