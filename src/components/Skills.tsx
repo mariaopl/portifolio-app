@@ -14,7 +14,7 @@ const Skills = () => {
           <p className="py-4">Take a look at my experiences</p>
         </div>
         <div className="w-full grid grid-cols-1 sm:grid-cols-3 gap-5 text-center py-8">
-          <div className="bg-[#edede9] shadow-md shadow-gray-500 hover:scale-110 duration-500 pt-4">
+          <div className="bg-[#edede9] shadow-md shadow-gray-500 hover:scale-110 duration-500 pt-4 mx-1">
             <img
               className="w-10 mx-auto"
               src={Developing}
@@ -22,16 +22,19 @@ const Skills = () => {
             />
             <p className="my-4 font-semibold">Developing</p>
             <p className="my-4">
+              I like to code things from scratch, and enjoy bringing ideas to life. 
             </p>
+            <p className="font-semibold my-4"> Languages and frameworks:</p>
+            <p className="my-4">
+              React, Typescript, Javascript, Python, Java, SQL, CSS, Azure
+              </p>
           </div>
-
           <div className="bg-[#edede9] shadow-md shadow-gray-500 hover:scale-110 duration-500 pt-4">
             <img className="w-10 mx-auto" src={Design} alt="Design icon" />
             <p className="my-4 font-semibold">Design</p>
             <p className="my-4">
             </p>
           </div>
-
           <div className="bg-[#edede9] shadow-md shadow-gray-500 hover:scale-110 duration-500 pt-4">
             <img className="w-10 mx-auto" src={Event} alt="Event icon" />
             <p className="my-4 font-semibold">Event</p>
