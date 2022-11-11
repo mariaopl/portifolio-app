@@ -8,7 +8,7 @@ const Skills = () => {
     <div id="skills" className="w-full sm:h-screen bg-[#ebb3a9]">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
-          <p className="text-4xl font-bold inline border-b-2 border-grey-500">
+          <p className="text-4xl font-bold inline border-b-4 border-gray-700 text-gray-900">
             Skills
           </p>
           <p className="py-4">Take a look at my experiences</p>
@@ -26,7 +26,7 @@ const Skills = () => {
             </p>
             <p className="font-semibold my-4"> Languages and frameworks:</p>
             <p className="my-4">
-              React, Typescript, Javascript, Python, Java, SQL, CSS, Azure
+              React, Typescript, Javascript, Python, Java, SQL, CSS, Azure, Tailwind                                                       
               </p>
           </div>
           <div className="bg-[#edede9] shadow-md shadow-gray-500 hover:scale-110 duration-500 pt-4">
