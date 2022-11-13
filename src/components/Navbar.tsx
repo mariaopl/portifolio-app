@@ -12,35 +12,35 @@ export const Navbar = () => {
       <div>
         <img src={logo} alt="Logo" style={{ width: "50px" }} />
       </div>
-    
+
       <ul className="hidden md:flex ">
         <div className="hover:scale-110">
-        <li>
-          <Link to="home" smooth={true} duration={500}>
-            Home
-          </Link>
-        </li>
+          <li>
+            <Link to="home" smooth={true} duration={500}>
+              Home
+            </Link>
+          </li>
         </div>
         <div className="hover:scale-110">
-        <li>
-          <Link to="about" smooth={true} duration={500}>
-            About
-          </Link>
-        </li>
+          <li>
+            <Link to="about" smooth={true} duration={500}>
+              About
+            </Link>
+          </li>
         </div>
         <div className="hover:scale-110">
-        <li>
-          <Link to="skills" smooth={true} duration={500}>
-            Skills
-          </Link>
-        </li>
+          <li>
+            <Link to="skills" smooth={true} duration={500}>
+              Skills
+            </Link>
+          </li>
         </div>
         <div className="hover:scale-110">
-        <li>
-          <Link to="projects" smooth={true} duration={500}>
-            Projects
-          </Link>
-        </li>
+          <li>
+            <Link to="projects" smooth={true} duration={500}>
+              Projects
+            </Link>
+          </li>
         </div>
       </ul>
 
