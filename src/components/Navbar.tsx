@@ -45,7 +45,7 @@ export const Navbar = () => {
         <div className="hover:scale-110">
           <li>
             <Link to="contactMe" smooth={true} duration={500}>
-              Contact me
+              Contact
             </Link>
           </li>
         </div>
@@ -94,7 +94,7 @@ export const Navbar = () => {
             smooth={true}
             duration={500}
           >
-            Contact me
+            Contact
           </Link>
         </li>
       </ul>
