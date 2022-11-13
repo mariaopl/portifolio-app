@@ -42,6 +42,13 @@ export const Navbar = () => {
             </Link>
           </li>
         </div>
+        <div className="hover:scale-110">
+          <li>
+            <Link to="contactMe" smooth={true} duration={500}>
+              Contact me
+            </Link>
+          </li>
+        </div>
       </ul>
 
       <div onClick={handleClick} className="md:hidden z-20">
@@ -78,6 +85,16 @@ export const Navbar = () => {
             duration={500}
           >
             Projects
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          <Link
+            onClick={handleClick}
+            to="contactMe"
+            smooth={true}
+            duration={500}
+          >
+            Contact me
           </Link>
         </li>
       </ul>
