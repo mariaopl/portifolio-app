@@ -19,6 +19,7 @@ export const HomePage = () => {
           <Link
             to="projects"
             className="text-gray-700 group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#989cab] hover:border-[#989cab] hover:text-white w-fit cursor-pointer cursor-pointer"
+            smooth={true}
           >
             View Work
             <span className="group-hover:rotate-90 duration-300">

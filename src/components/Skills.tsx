@@ -45,7 +45,7 @@ const Skills = () => {
             <p className="my-4 font-semibold">Education</p>
             <p className="my-4">
               2019 - : Communication technology and digital security at the
-              Norwegian University of Science and Technology with infomration
+              Norwegian University of Science and Technology with information
               security as specialization
             </p>
           </div>
