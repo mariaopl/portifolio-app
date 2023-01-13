@@ -1,10 +1,14 @@
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
 import { SocialLink } from "./SocialLink";
+import Portrait from "../assets/portrait_maria.png";
 
 export const HomePage = () => {
   return (
-    <div id="home" className="w-full h-screen bg-[#edede9]">
+    <div
+      id="home"
+      className="w-full h-screen bg-[#edede9] grid grid-cols-1 sm:grid-cols-2 gap-1"
+    >
       {" "}
       <div className="max-w-[1000 px] mx-auto px-20 flex flex-col justify-center h-full">
         <p className="text-lg pb-2">Hi, my name is</p>
@@ -27,7 +31,15 @@ export const HomePage = () => {
             </span>
           </Link>
         </div>
+
         <SocialLink />
+      </div>
+      <div className="flex flex-col justify-end align-bottom h-full">
+        <img
+          src={Portrait}
+          className="object-contain md:object-scale-down h-49 w-96"
+          alt="Portrait of Maria Opland"
+        />
       </div>
     </div>
   );
