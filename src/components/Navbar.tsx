@@ -9,8 +9,10 @@ export const Navbar = () => {
 
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#edede9] text-gray-700 z-20">
-      <div>
-        <img src={logo} alt="Logo" style={{ width: "50px" }} />
+      <div className="cursor-pointer">
+        <Link to="home" smooth={true} duration={500}>
+          <img src={logo} alt="Logo" style={{ width: "50px" }} />
+        </Link>
       </div>
 
       <ul className="hidden md:flex ">
