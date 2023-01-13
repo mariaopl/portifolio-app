@@ -64,8 +64,19 @@ const Projects = () => {
             </div>
           </div>
           <div className="bg-[#edede9] shadow-md shadow-gray-500 py-8 px-7">
-            <div className="mb-9">
-              <FaRegFolder size={45} />
+            <div className="flex mb-9 justify-between">
+              <div className="inline-block">
+                <FaRegFolder size={45} />
+              </div>
+              <div className="inline-block hover:scale-110">
+                <a
+                  href="https://github.com/mariaopl/portifolio-app"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <FaGithub size={22} />
+                </a>
+              </div>
             </div>
             <p className="my-4 font-semibold text-lg">Portfolio website</p>
             <p className="my-4">This website</p>
