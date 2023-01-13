@@ -1,5 +1,6 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { HiArrowNarrowRight } from "react-icons/hi";
 
 const ContactMe = () => {
   const [width, setWidth] = useState(window.innerWidth);
@@ -16,7 +17,7 @@ const ContactMe = () => {
       <div className="flex flex-col justify-evenly w-full h-full mx-auto">
         <div className="w-5 h-20"></div>
         <div className="w-5 h-20"></div>
-        <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8 px-20">
+        <div className="max-w-[1000px] w-full grid sm:grid-cols-2 grid-cols-1 gap-8 px-20">
           <div className="sm:text-right pb-8 pl-4">
             <div>
               <p className="text-4xl font-bold inline border-b-4 border-gray-700">
@@ -24,6 +25,17 @@ const ContactMe = () => {
               </p>
               <p className="text-3xl pt-5">maria-opl@hotmail.com</p>
             </div>
+          </div>
+          <div>
+            <a
+              href="mailto:maria-opl@hotmail.com"
+              className="text-gray-700 group border-2 rounded-sm px-6 py-3 my-2 flex items-center hover:bg-[#989cab] hover:border-[#989cab] hover:text-white w-fit cursor-pointer"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Say hello
+              <HiArrowNarrowRight className="ml-3" />
+            </a>
           </div>
         </div>
         <div className="w-5 h-24"></div>

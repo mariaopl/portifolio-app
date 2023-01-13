@@ -1,4 +1,3 @@
-import React from "react";
 import { FaGithub, FaJava, FaReact, FaRegFolder } from "react-icons/fa";
 
 const Projects = () => {
@@ -11,7 +10,7 @@ const Projects = () => {
         <p className="text-4xl font-bold inline border-b-4 border-gray-700 pt-24">
           Projects
         </p>
-        <div className="max-w-[1000px] w-full grid grid-cols-1 sm:grid-cols-2 gap-20 pt-24 pl-20 pr-16 text-gray-700">
+        <div className="max-w-[1000px] w-full grid grid-cols-1 sm:grid-cols-2 gap-20 pt-24 px-16 text-gray-700">
           <div className="bg-[#edede9] shadow-md shadow-gray-500 py-8 px-7">
             <div className="mb-9">
               <FaRegFolder size={45} />

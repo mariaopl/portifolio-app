@@ -1,4 +1,3 @@
-import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
 import { SocialLink } from "./SocialLink";
@@ -18,7 +17,7 @@ export const HomePage = () => {
         <div>
           <Link
             to="projects"
-            className="text-gray-700 group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#989cab] hover:border-[#989cab] hover:text-white w-fit cursor-pointer cursor-pointer"
+            className="text-gray-700 group border-2 rounded-sm px-6 py-3 my-2 flex items-center hover:bg-[#989cab] hover:border-[#989cab] hover:text-white w-fit cursor-pointer"
             smooth={true}
           >
             View Work

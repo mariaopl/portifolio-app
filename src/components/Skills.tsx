@@ -1,4 +1,3 @@
-import React from "react";
 import Document from "../assets/document.png";
 import Developing from "../assets/developing-icon.png";
 import Education from "../assets/monitor.png";
@@ -6,14 +5,14 @@ import Education from "../assets/monitor.png";
 const Skills = () => {
   return (
     <div id="skills" className="w-full sm:h-screen bg-[#ebb3a9]">
-      <div className="max-w-[1000px] mx-auto p-14 pt-18 flex flex-col justify-center w-full h-full">
+      <div className="max-w-[1000px] mx-auto p-16 pt-18 flex flex-col justify-center w-full h-full">
         <div>
           <p className="text-4xl font-bold inline border-b-4 border-gray-700 text-gray-900 pt-24">
             Skills and background
           </p>
           <p className="py-5">Take a look at my experiences</p>
         </div>
-        <div className="w-full grid grid-cols-1 sm:grid-cols-3 gap-10 text-center py-8">
+        <div className="w-full grid grid-cols-1 sm:grid-cols-3 sm:gap-12 gap-20 text-center py-8">
           <div className="bg-[#edede9] shadow-md shadow-gray-500 py-5 px-4">
             <img
               className="w-10 mx-auto"
