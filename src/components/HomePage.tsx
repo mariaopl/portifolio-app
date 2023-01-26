@@ -7,7 +7,7 @@ export const HomePage = () => {
   return (
     <div
       id="home"
-      className="w-full h-screen bg-[#edede9] grid grid-cols-1 sm:grid-cols-2 gap-1 pt-28"
+      className="w-full h-screen bg-[#edede9] grid grid-cols-1 sm:grid-cols-2 gap-1 pt-36"
     >
       {" "}
       <div className="max-w-[1000 px] mx-auto px-20 flex flex-col justify-center h-full">
