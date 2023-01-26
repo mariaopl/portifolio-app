@@ -7,7 +7,7 @@ export const HomePage = () => {
   return (
     <div
       id="home"
-      className="w-full h-screen bg-[#edede9] grid grid-cols-1 sm:grid-cols-2 gap-1"
+      className="w-full h-screen bg-[#edede9] grid grid-cols-1 sm:grid-cols-2 gap-1 pt-28"
     >
       {" "}
       <div className="max-w-[1000 px] mx-auto px-20 flex flex-col justify-center h-full">
@@ -34,10 +34,10 @@ export const HomePage = () => {
 
         <SocialLink />
       </div>
-      <div className="flex flex-col justify-end align-bottom h-full">
+      <div className="flex flex-col justify-end align-bottom h-full ">
         <img
           src={Portrait}
-          className="object-contain md:object-scale-down h-49 w-96"
+          className="object-contain sm:h-49 sm:w-96 w-72 self-end lg:self-auto"
           alt="Portrait of Maria Opland"
         />
       </div>
